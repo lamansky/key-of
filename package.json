@@ -1,0 +1,50 @@
+{
+  "name": "key-of",
+  "version": "1.0.0",
+  "description": "It’s Array.prototype.indexOf() for Maps and Objects.",
+  "keywords": [
+    "get",
+    "find",
+    "key",
+    "index",
+    "indexOf",
+    "value",
+    "collection",
+    "array",
+    "iterator",
+    "map",
+    "object",
+    "set",
+    "typed array",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/key-of",
+  "repository": "lamansky/key-of",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "entries-iterator": "^1.5.0",
+    "equals": "^1.0.5",
+    "iterify": "^1.0.0",
+    "otherwise": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
